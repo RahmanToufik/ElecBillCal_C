@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0835413B2A854FA5006B1D69 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0835413A2A854FA5006B1D69 /* main.c */; };
+		083541432A854FE3006B1D69 /* ElecBill.c in Sources */ = {isa = PBXBuildFile; fileRef = 083541422A854FE3006B1D69 /* ElecBill.c */; };
+		083541462A8550C9006B1D69 /* mainElecBill.c in Sources */ = {isa = PBXBuildFile; fileRef = 083541452A8550C9006B1D69 /* mainElecBill.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		083541372A854FA5006B1D69 /* ElecBillCal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ElecBillCal; sourceTree = BUILT_PRODUCTS_DIR; };
-		0835413A2A854FA5006B1D69 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		083541412A854FE3006B1D69 /* ElecBill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElecBill.h; sourceTree = "<group>"; };
+		083541422A854FE3006B1D69 /* ElecBill.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ElecBill.c; sourceTree = "<group>"; };
+		083541442A8550C9006B1D69 /* mainElecBill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainElecBill.h; sourceTree = "<group>"; };
+		083541452A8550C9006B1D69 /* mainElecBill.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mainElecBill.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		083541392A854FA5006B1D69 /* ElecBillCal */ = {
 			isa = PBXGroup;
 			children = (
-				0835413A2A854FA5006B1D69 /* main.c */,
+				083541412A854FE3006B1D69 /* ElecBill.h */,
+				083541422A854FE3006B1D69 /* ElecBill.c */,
+				083541442A8550C9006B1D69 /* mainElecBill.h */,
+				083541452A8550C9006B1D69 /* mainElecBill.c */,
 			);
 			path = ElecBillCal;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0835413B2A854FA5006B1D69 /* main.c in Sources */,
+				083541462A8550C9006B1D69 /* mainElecBill.c in Sources */,
+				083541432A854FE3006B1D69 /* ElecBill.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

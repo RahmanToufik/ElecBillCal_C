@@ -1,9 +1,4 @@
-//
-//  main.c
-//  ElecBillCal
-//
-//  Created by Toufikur Rahman on 8/10/23.
-//
+
 
 #include <stdio.h>
 
